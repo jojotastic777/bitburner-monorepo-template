@@ -1,5 +1,5 @@
 {
-  "name": "@bitburner-scripts/{{script_name}}",
+  "name": "@scripts/{{script_name}}",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
