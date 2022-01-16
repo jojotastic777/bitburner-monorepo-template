@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "yarn rollup -c rollup.config.ts --configPlugin typescript",
-    "watch": "yarn rollup -c rollup.config.ts --configPlugin typescript -w",
+    "build": "rollup -c rollup.config.ts --configPlugin typescript",
+    "watch": "rollup -c rollup.config.ts --configPlugin typescript -w",
     "format": "prettier --config ../../.prettierrc --write src/",
     "lint": "eslint --fix ."
   },
