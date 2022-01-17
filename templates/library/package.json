@@ -1,5 +1,5 @@
 {
-  "name": "@libs/{{lib_name}}",
+  "name": "{{lib_name}}",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
