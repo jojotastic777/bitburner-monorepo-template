@@ -6,7 +6,7 @@ const options: RollupOptions = {
   input: "src/index.ts",
   output: {
     file: "../../dist/apps/{{app_short_name}}/index.js",
-    format: "esm",
+    format: "umd",
   },
   plugins: [typescript(), nodeResolve()],
   treeshake: "recommended",
